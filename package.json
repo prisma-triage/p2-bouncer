@@ -1,0 +1,21 @@
+{
+  "name": "my-prisma-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma2": "2.0.0-alpha.800"
+  },
+  "dependencies": {
+    "@prisma/client": "2.0.0-alpha.800",
+    "@types/express": "^4.17.2",
+    "express": "^4.17.1",
+    "uuid": "^3.4.0"
+  }
+}
