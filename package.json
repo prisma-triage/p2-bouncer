@@ -16,6 +16,8 @@
     "@prisma/client": "2.0.0-alpha.800",
     "@types/express": "^4.17.2",
     "express": "^4.17.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
     "uuid": "^3.4.0"
   }
 }
