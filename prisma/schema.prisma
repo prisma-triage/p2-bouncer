@@ -1,23 +1,23 @@
-generator client {
-  provider = "prisma-client-js"
-}
-
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
 }
 
 model Post {
   data  String   @default("")
   date  DateTime
   id    String   @id
-  slug  String   @default("") @unique
+  slug  String   @default("")
   title String   @default("")
   user  User
 }
 
 model User {
-  email String @default("") @unique
+  email String @default("")
   id    String @id
   name  String @default("")
   post  Post[]
