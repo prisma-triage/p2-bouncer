@@ -8,4 +8,5 @@ This repository exposes two endpoints.
 To reproduce:
 
 1. Set `DATABASE_URL` in `prisma/.env`
-2. Use `ts-node index.js` to test.
+2. Run `prisma2 generate`
+3. Use `ts-node index.js` to test.
