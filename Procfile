@@ -1,2 +1,2 @@
-web:bin/start-pgbouncer npm start
+web:npm start
 
