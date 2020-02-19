@@ -21,4 +21,6 @@ generator client {
 1. Run `prisma2 generate`
 1. Use `ts-node index.ts` to test.
 
-Both endpoints work, `/` should fail.
+`/` fails with `ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: Db, cause: Some(DbError { severity: "ERROR", parsed_severity: Some(Error), code: SqlState("26000"), message: "prepared statement \"s0\" does not exist", detail: None, hint: None, position: None, where_: None, schema: None, table: None, column: None, datatype: None, constraint: None, file: Some("prepare.c"), line: Some(505), routine: Some("FetchPreparedStatement") }) }) })`
+
+`/with-flag` works
